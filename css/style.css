@@ -1,0 +1,281 @@
+* {
+	padding:0;
+	margin:0;
+	background-repeat: none;
+	font-family: helveticaneueultralight;	
+	list-style-type: none;
+}
+
+body {
+	color: #000;
+}
+
+a {
+	color: #000;
+	text-decoration: underline;
+
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.row {
+	max-width: 100%;
+}
+
+.displayLightbox a img {
+	display:block;
+}
+
+h1 {
+	font-size: 32px;
+	line-height: 48px;
+}
+
+h2 {
+	font-size: 28px;
+	line-height: 34px;
+	margin: 20px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: helveticaneueultralight;	
+}
+
+p {
+	font-size: 16px;
+	line-height: 20px;
+	margin: 10px 0;
+}
+
+li {
+	font-size: 1.2em;
+}
+
+.small {
+	font-size: .8em;
+}
+
+.large {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.block {
+	text-indent: -9999px;
+	float: left!important;
+	height: 47%;
+}
+
+img.transText {
+	width: 290px;
+	display: block;
+	margin: auto;
+	height: 47%;
+}
+
+#title img.transText {
+	background: url('../img/title.png') center center no-repeat;
+}
+
+#watch img.transText {
+	background: url('../img/watch.png') center center no-repeat;
+}
+
+#trailer img.transText {
+	background: url('../img/trailer.png') center center no-repeat;
+}
+
+#shop img.transText {
+	background: url('../img/shop.png') center center no-repeat;
+}
+
+#donate img.transText {
+	background: url('../img/donate.png') center center no-repeat;
+}
+
+#heart img.transText {
+	background: url('../img/heart.png') center center no-repeat;
+}
+
+
+#title {
+	background: #f3e9ea url('../img/title.jpg') top center no-repeat;
+}
+
+#watch {
+	background: #1b191a url('../img/watch.jpg') top center no-repeat;
+}
+
+#trailer {
+	background: #b1b7ad url('../img/trailer.jpg') bottom center no-repeat;
+}
+
+#shop {
+	background: #181c1b url('../img/shop.jpg') top right no-repeat;
+}
+
+#donate {
+	background: #f6f7f2 url('../img/donate.jpg') bottom right no-repeat;
+}
+
+#heart {
+	background: #252326 url('../img/heart.jpg') top center no-repeat;
+}
+
+#payments li {
+	float: left;
+	width: 22%;
+	margin: 10px;
+}
+
+#payments form {
+	margin: 0;
+}
+
+#footer {
+	text-align: center;
+	padding: 5px 0;
+}
+
+#footer p a {
+	color: #000;
+	text-decoration: none;
+	padding-right: 10px; 
+}
+
+#footer p a:hover {
+	text-decoration: underline;
+}
+
+/*//// Thanks page ////*/
+
+#thanksPage {
+	margin: 40px auto;
+	text-align: center;
+	width: 100%;
+}
+
+.thanksImg {
+	margin: 10px auto;
+	text-align:center;
+}
+
+.thanksImg img {
+	max-width: 250px;
+}
+
+
+/*//// Lightbox ////*/
+
+
+
+.lightboxText {
+	padding: 20px 10px;
+}
+
+.reveal-modal {
+	top: 50px;
+	height: auto;
+	min-height: 0;
+	overflow: none;
+	text-align: center;
+	padding-top: 40px;
+}
+
+a.close-reveal-modal {
+	text-decoration: none;
+}
+
+#myModal1.reveal-modal {
+	height: auto;
+}
+
+#myModal2 iframe, #myModal3 iframe, #myModal5 iframe {
+width: 640px;
+height: 360px;
+}
+
+/*//// Other Device Sizes ////*/
+
+
+@media (min-width: 1440px) {
+	#title {
+		background: #f3e9ea url('../img/title-l.jpg') top center no-repeat;
+	}
+
+	#watch {
+		background: #1b191a url('../img/watch-l.jpg') top center no-repeat;
+	}
+
+	#trailer {
+		background: #b1b7ad url('../img/trailer-l.jpg') bottom center no-repeat;
+	}
+
+	#shop {
+		background: #181c1b url('../img/shop-l.jpg') top right no-repeat;
+	}
+
+	#donate {
+		background: #f6f7f2 url('../img/donate-l.jpg') bottom right no-repeat;
+	}
+
+	#heart {
+		background: #252326 url('../img/heart-l.jpg') top center no-repeat;
+	}
+}
+
+@media (max-width: 1000px) {
+
+	.block {
+		height: 20%;
+	}
+
+	img.transText {
+		height: 60%;
+		min-height: 230px;
+		max-height: 300px;	
+		background-size: 70%!important;	
+	}
+
+	#payments li {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 20px;
+	}
+	
+	#myModal2 iframe, #myModal3 iframe, #myModal5 iframe {
+		width: 320px;
+		height: 180px;
+	}
+
+}
+
+@media (min-width: 1000px) and
+(max-width: 1200px) {
+	.reveal-modal.medium {
+	margin-left: -33%;
+	width: 70%;
+	}
+}
+
+
+@media (min-width: 480px) and
+(max-width: 680px) {
+	.reveal-modal.medium {
+	margin-left: -40%;
+	width: 80%;
+	}
+}
+
+
+/*//// Font ////*/
+
+@font-face {
+	font-family: helveticaneueultralight;
+	src: url(../font/helveticaneueultralight.ttf);
+}
