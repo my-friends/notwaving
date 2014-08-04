@@ -207,7 +207,7 @@ height: 360px;
 	}
 
 	#watch {
-		background: #1b191a url('../img/watch-l.jpg') top center no-repeat;
+		background: #1b191a url('../img/watch-l.jpg') bottom center no-repeat;
 	}
 
 	#trailer {
@@ -219,7 +219,7 @@ height: 360px;
 	}
 
 	#donate {
-		background: #f6f7f2 url('../img/donate-l.jpg') bottom right no-repeat;
+		background: #f6f7f2 url('../img/donate-l.jpg') top right no-repeat;
 	}
 
 	#heart {
