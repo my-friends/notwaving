@@ -106,7 +106,7 @@ img.transText {
 }
 
 #watch {
-	background: #1b191a url('../img/watch.jpg') bottom center no-repeat;
+	background: #1b191a url('../img/watch.jpg') top center no-repeat;
 }
 
 #trailer {
@@ -207,7 +207,7 @@ height: 360px;
 	}
 
 	#watch {
-		background: #1b191a url('../img/watch-l.jpg') bottom center no-repeat;
+		background: #1b191a url('../img/watch-l.jpg') top center no-repeat;
 	}
 
 	#trailer {
