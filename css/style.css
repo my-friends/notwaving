@@ -74,6 +74,7 @@ img.transText {
 	display: block;
 	margin: auto;
 	height: 47%;
+	min-height: 47%;
 }
 
 .large-4 {
