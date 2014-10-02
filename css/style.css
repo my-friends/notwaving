@@ -76,6 +76,10 @@ img.transText {
 	height: 47%;
 }
 
+.large-4 {
+	background-size: cover!important;
+}
+
 #title img.transText {
 	background: url('../img/title.png') center center no-repeat;
 }
